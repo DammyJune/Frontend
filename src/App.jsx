@@ -93,7 +93,6 @@ function App() {
     <Thankyou/>
   
   )
-
 }
 
 export default App

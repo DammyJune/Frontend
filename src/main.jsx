@@ -34,6 +34,7 @@ import Cart from './pages/Cart.jsx'
 import Careers from './pages/Careers.jsx'
 import Thumbnail from './pages/Thumbnail.jsx'
 import Thankyou from './pages/Thankyou.jsx'
+import Footer from './components/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -67,6 +68,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/careers" element={<Careers/>}/>
       <Route path="/thumbnail" element={<Thumbnail/>}/>
       <Route path="/thankyou" element={<Thankyou/>}/>
+      <Route path="/footer" element={<Footer/>}/>
     </Routes>
   </BrowserRouter>
   </StrictMode>,

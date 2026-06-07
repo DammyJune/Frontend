@@ -8,6 +8,7 @@ import Services from "../components/Services"
 import Instagram from "../components/Instagram"
 import "../styles/home.css"
 import Newsletter from "../components/Newsletter"
+import Footer from "../components/Footer"
 
 function Home() {
 
@@ -31,6 +32,8 @@ function Home() {
 <Instagram/>
 
 <Newsletter/>
+
+<Footer/>
 
     </>
   )

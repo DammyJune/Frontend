@@ -37,34 +37,13 @@ const Newsletter = () => {
           </button>
         </form>
 
-        {/* FOOTER */}
-        <div className="footer-section">
-            <hr className="style"></hr>
-            <div className="footer-logo">
-<img src={FASCO}></img>
-</div>
-
-          <ul>
-          <NavLink to="/SupportCenter">  <li>Support Center</li> </NavLink>
-            <NavLink to="/Invoicing"> <li>Invoicing</li> </NavLink>
-           <NavLink to="/Contact"> <li>Contact</li> </NavLink>
-          <NavLink className="careers" to="/careers"><li>Careers</li></NavLink>
-           <NavLink to="/blog"> <li>Blog</li> </NavLink>
-           <NavLink to="/faq"> <li>FAQs</li> </NavLink>
-          </ul>
-
-          <p className="copyright">
-            Copyright © 2022 Xpro . All Rights Reserved.
-          </p>
-        </div>
-      </div>
-
-      {/* RIGHT IMAGE */}
+        {/* RIGHT IMAGE */}
       <div className="newsletter-image right-image">
         <img
           src={woman}
           alt="Fashion"
         />
+      </div>
       </div>
     </section>
   );
