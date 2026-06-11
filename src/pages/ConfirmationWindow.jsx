@@ -19,7 +19,7 @@ function ConfirmationWindow() {
 
         <div className="col-lg-6 form-section">
           <div className="form-content">
-            <NavLink> <img src={FASCO} className="logo"/> </NavLink>
+            <NavLink to="/"> <img src={FASCO} className="logo"/> </NavLink>
 
             <h3 className="title">Enter The Confirmation Code</h3>
             <input type="text" placeholder="Confirmation Code" className="form-control code-input"/>
