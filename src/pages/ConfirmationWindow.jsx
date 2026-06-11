@@ -19,12 +19,12 @@ function ConfirmationWindow() {
 
         <div className="col-lg-6 form-section">
           <div className="form-content">
-            <img src={FASCO} className="logo"/>
+            <NavLink> <img src={FASCO} className="logo"/> </NavLink>
 
             <h3 className="title">Enter The Confirmation Code</h3>
             <input type="text" placeholder="Confirmation Code" className="form-control code-input"/>
 
-            <button className="btn recover-btn">Recover Account</button>
+            <button className="btn recover-btn btn btn-dark">Recover Account</button>
 
             <p className="resend-text">Didn't receive Confirmation Code?
 
