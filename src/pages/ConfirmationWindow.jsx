@@ -6,65 +6,39 @@ import { NavLink } from "react-router";
 
 function ConfirmationWindow() {
   return (
-    <div className="container-fluid confirmation-page">
-      <div className="row min-vh-100">
+    <div className="confirm-page container-fluid">
+      <div className="row confirn-container">
 
-        {/* Left Image */}
-        <NavLink to="/">
-        <div className="col-lg-6 d-flex justify-content-center align-items-center">
-          <img
-            src={rectangle}
-            alt="Fashion"
-            className="confirmation-image"
-          />
+        {/*Left Image*/}
+
+        <div className="col-lg-6 image-section">
+          <img src={rectangle} alt="Fashion" className="fashion-img"/>
         </div>
-        </NavLink>
 
-        {/* Right Side */}
-        <div className="col-lg-6 d-flex align-items-center">
-          <div className="confirmation-form">
+        {/*Right Form*/}
 
-            {/* Logo */}
-            <img
-              src={FASCO}
-              alt="Fasco Logo"
-              className="logo"
-            />
+        <div className="col-lg-6 form-section">
+          <div className="form-content">
+            <img src={FASCO} className="logo"/>
 
-            <h2 className="confirmation-title">
-              Enter The Confirmation Code
-            </h2>
+            <h3 className="title">Enter The Confirmation Code</h3>
+            <input type="text" placeholder="Confirmation Code" className="form-control code-input"/>
 
-            <form>
-              <input
-                type="text"
-                placeholder="Confirmation Code"
-                className="form-control confirmation-input"
-              />
+            <button className="btn recover-btn">Recover Account</button>
 
-              <button
-                type="submit"
-                className="btn btn-dark w-100 recover-btn"
-              >
-                Recover Account
-              </button>
-            </form>
+            <p className="resend-text">Didn't receive Confirmation Code?
 
-            <p className="resend-text">
-              Didn't receive Confirmation Code?
-              <a href="#"> Resend Now</a>
+            <span className="resend-link">Resend Now</span>
             </p>
 
-            <p className="terms">
-              FASCO Terms & Conditions
-            </p>
-
+            <div className="terms">
+              FASCO terms and conditions
+            </div>
           </div>
         </div>
-
       </div>
     </div>
-  );
+  )
 }
 
 export default ConfirmationWindow;

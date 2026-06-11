@@ -12,7 +12,7 @@ const Services = () => {
       <div className="row text-center gy-4">
 
         {/* Service 1 */}
-        <div className="col-lg-3 col-6">
+        <div className="col-md-3 col-6">
           <div className="service-box">
             <BsStar className="service-icon" />
 
@@ -24,7 +24,7 @@ const Services = () => {
         </div>
 
         {/* Service 2 */}
-        <div className="col-lg-3 col-6">
+        <div className="col-md-3 col-6">
           <div className="service-box">
             <BsShieldCheck className="service-icon" />
 
@@ -36,7 +36,7 @@ const Services = () => {
         </div>
 
         {/* Service 3 */}
-        <div className="col-lg-3 col-6">
+        <div className="col-md-3 col-6">
           <div className="service-box">
             <BsBoxSeam className="service-icon" />
 
@@ -48,7 +48,7 @@ const Services = () => {
         </div>
 
         {/* Service 4 */}
-        <div className="col-lg-3 col-6">
+        <div className="col-md-3 col-6">
           <div className="service-box">
             <BsHeadset className="service-icon" />
 
